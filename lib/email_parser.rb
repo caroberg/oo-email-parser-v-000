@@ -11,6 +11,8 @@ class EmailParser
     @@all << @parse
   end
 
-@@all
+  def parse_all
+    @@all
+  end
 
 end
