@@ -13,5 +13,5 @@ class EmailParser
   def parse
     @@parse
   end
-  
+
 end
