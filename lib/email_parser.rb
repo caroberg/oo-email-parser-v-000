@@ -13,7 +13,7 @@ class EmailParser
 
   def parse_all
 
-    @@all
+    @@all.flatten
   end
 
 end
