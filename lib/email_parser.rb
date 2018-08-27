@@ -8,12 +8,12 @@ class EmailParser
   @@all = []
   def initialize(parse)
     @parse = parse
-    @@all << @parse
+    @@all << @parse.split
   end
 
   def parse_all
 
-    @@all.flatten
+    @@all
   end
 
 end
