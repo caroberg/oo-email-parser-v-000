@@ -8,7 +8,7 @@ class EmailParser
   @@all = []
   def initialize(parse)
     @parse = parse
-    @@all << @parse(", ")
+    @@all << @parse
   end
 
   def self.parse_all
