@@ -9,5 +9,5 @@ class EmailParser
     @parse = parse
     @@parse << @parse
   end
-
+  @@parse
 end
