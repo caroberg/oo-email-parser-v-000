@@ -12,6 +12,6 @@ class EmailParser
 
   def parse
       @@parse << @email
-
+      @@parse.join(", ")
   end
 end
