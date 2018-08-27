@@ -7,11 +7,11 @@ class EmailParser
   @@parse = []
   def initialize(email)
     @email = email
-  
+
   end
 
   def parse
       @@parse << @email
-  
+
   end
 end
