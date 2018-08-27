@@ -12,7 +12,7 @@ class EmailParser
 
   def parse
       @@parse << @email
-    
+
   end
     @@parse
 end
