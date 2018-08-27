@@ -11,6 +11,6 @@ class EmailParser
     @@all << @parse
   end
 
-
+@@all
 
 end
