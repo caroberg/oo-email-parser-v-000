@@ -10,7 +10,7 @@ class EmailParser
     @@parse << @email
   end
 
-  def parse
+  def self.parse
     @@parse
   end
 
